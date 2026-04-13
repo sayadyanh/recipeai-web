@@ -175,7 +175,7 @@
     <div class="container">
         <header>
             <h1>Privacy Policy</h1>
-            <p class="last-updated">Last Updated: February 18, 2026</p>
+            <p class="last-updated">Last Updated: April 12, 2026</p>
             <p class="last-updated">Effective Date: January 22, 2026</p>
         </header>
 
@@ -205,6 +205,7 @@
             <h4>User Content</h4>
             <ul>
                 <li><strong>Images:</strong> Food photographs you upload for recipe generation or calorie analysis;</li>
+                <li><strong>Voice Input:</strong> Audio recordings and/or transcripts you provide through the in-app voice recipe generation feature (e.g., spoken ingredients, dish descriptions, or prompts);</li>
                 <li><strong>Recipes:</strong> AI-generated recipes, custom recipes, recipe modifications;</li>
                 <li><strong>Favorites:</strong> Recipes you mark as favorites.</li>
             </ul>
@@ -308,7 +309,7 @@
             <ul>
                 <li>Create and manage your account;</li>
                 <li>Authenticate your identity and enable secure access;</li>
-                <li>Process your images through AI to generate recipes and nutritional estimates;</li>
+                <li>Process your images, voice recordings, and transcripts through AI to generate recipes and nutritional estimates;</li>
                 <li>Personalize recipes based on your dietary preferences and allergies;</li>
                 <li>Store and sync your recipes, favorites, and settings;</li>
                 <li>Enforce usage limits for free and premium tiers.</li>
@@ -378,8 +379,8 @@
                     </tr>
                     <tr>
                         <td><strong>Google Gemini</strong></td>
-                        <td>AI recipe generation, image analysis</td>
-                        <td>Uploaded images, recipe generation requests</td>
+                        <td>AI recipe generation, image analysis, voice transcription and understanding</td>
+                        <td>Uploaded images, voice recordings and transcripts, recipe generation requests</td>
                         <td><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a></td>
                     </tr>
                     <tr>
@@ -458,6 +459,10 @@
                     <tr>
                         <td>Uploaded images</td>
                         <td>Duration of account + 30 days after deletion</td>
+                    </tr>
+                    <tr>
+                        <td>Voice recordings</td>
+                        <td>Processed in real time and discarded after transcription; transcripts retained only if associated with a saved recipe</td>
                     </tr>
                     <tr>
                         <td>Transaction records</td>
@@ -578,7 +583,7 @@
                 <li><strong>Personal Information (Cal. Civ. Code 1798.80):</strong> Name;</li>
                 <li><strong>Internet or Network Activity:</strong> App usage, browsing history, search queries;</li>
                 <li><strong>Geolocation Data:</strong> Approximate location from IP address;</li>
-                <li><strong>Sensory Data:</strong> Food photographs you upload;</li>
+                <li><strong>Sensory Data:</strong> Food photographs you upload and voice recordings captured through the voice recipe generation feature;</li>
                 <li><strong>Inferences:</strong> Preferences and characteristics derived from usage.</li>
             </ul>
 
@@ -679,10 +684,40 @@
             <h4>Premium Subscribers</h4>
             <p>Premium subscribers are not shown advertisements. No advertising-related tracking occurs for premium subscribers, regardless of ATT permission status.</p>
 
-            <h2>10. Third-Party Links</h2>
+            <h2>10. Voice Recipe Generation and Microphone Access</h2>
+            <p>RecipeAI offers a voice-based recipe generation feature that allows you to describe ingredients, dishes, or prompts by speaking instead of typing or uploading an image.</p>
+
+            <h3>10.1 Microphone Permission</h3>
+            <p>To use the voice feature, RecipeAI must access your device's microphone. The microphone is activated only while you are actively using the voice recipe generation feature and never listens in the background. You may deny or revoke microphone permission at any time through your device settings:</p>
+            <ul>
+                <li><strong>iOS:</strong> Settings &gt; Privacy &amp; Security &gt; Microphone &gt; RecipeAI</li>
+                <li><strong>Android:</strong> Settings &gt; Apps &gt; RecipeAI &gt; Permissions &gt; Microphone</li>
+            </ul>
+            <p>Denying microphone access will disable the voice recipe feature but will not affect any other functionality.</p>
+
+            <h3>10.2 How Voice Data Is Processed</h3>
+            <ul>
+                <li><strong>Capture:</strong> Audio is captured locally on your device when you initiate a voice request;</li>
+                <li><strong>Transcription:</strong> Audio is transmitted over an encrypted connection to Google Gemini (or equivalent on-device speech recognition, depending on platform) to convert your speech into text;</li>
+                <li><strong>Recipe Generation:</strong> The resulting transcript is sent to our AI systems to generate the requested recipe;</li>
+                <li><strong>Retention:</strong> Raw audio is not stored on our servers after transcription. Transcripts are retained only if they are associated with a recipe you save to your account;</li>
+                <li><strong>No Voiceprints:</strong> We do not create, store, or use voiceprints or other biometric identifiers derived from your voice.</li>
+            </ul>
+
+            <h3>10.3 What Voice Data Is Not Used For</h3>
+            <ul>
+                <li>We do not use your voice recordings or transcripts for advertising or marketing;</li>
+                <li>We do not sell or share voice data with third parties except the service providers listed above who perform transcription and AI processing on our behalf;</li>
+                <li>We do not use identifiable voice data to train general-purpose AI models. Only anonymized, aggregated data may be used to improve the voice feature's accuracy.</li>
+            </ul>
+
+            <h3>10.4 Sensitive Content</h3>
+            <p>Please do not include sensitive personal information, confidential data, or recordings of other individuals without their consent in your voice inputs. You are responsible for the content of the audio you submit.</p>
+
+            <h2>11. Third-Party Links</h2>
             <p>The Service may contain links to third-party websites, services, or content. We are not responsible for the privacy practices or content of third-party sites. We encourage you to review the privacy policies of any third-party services you access.</p>
 
-            <h2>11. Changes to This Privacy Policy</h2>
+            <h2>12. Changes to This Privacy Policy</h2>
             <p>We may update this Privacy Policy to reflect changes in our practices, legal requirements, or business operations:</p>
             <ul>
                 <li><strong>Notification:</strong> Material changes will be communicated through the Service, email, or prominent notice;</li>
@@ -692,7 +727,7 @@
                 <li><strong>Prior Versions:</strong> Previous versions are available upon request.</li>
             </ul>
 
-            <h2>12. Contact Us</h2>
+            <h2>13. Contact Us</h2>
             <p>If you have questions, concerns, or requests regarding this Privacy Policy or our data practices, please contact us:</p>
 
             <h3>General Inquiries</h3>
@@ -715,7 +750,7 @@
                 <li><strong>Email:</strong> Contact <a href="mailto:support@recipe-ai.io">support@recipe-ai.io</a></li>
             </ul>
 
-            <h2>13. Data Controller Information</h2>
+            <h2>14. Data Controller Information</h2>
             <p>For purposes of data protection laws, the data controller responsible for your personal information is:</p>
             <ul>
                 <li><strong>Company:</strong> HomeApps</li>
@@ -724,9 +759,9 @@
                 <li><strong>Website:</strong> <a href="https://recipe-ai.io">https://recipe-ai.io</a></li>
             </ul>
 
-            <h2>14. Supplemental Terms for Mobile Applications</h2>
+            <h2>15. Supplemental Terms for Mobile Applications</h2>
 
-            <h3>14.1 Apple App Store</h3>
+            <h3>15.1 Apple App Store</h3>
             <p>If you download RecipeAI from the Apple App Store:</p>
             <ul>
                 <li>Apple collects certain information as described in <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener">Apple's Privacy Policy</a>;</li>
@@ -734,7 +769,7 @@
                 <li>We receive subscription status information from Apple but not your payment details.</li>
             </ul>
 
-            <h3>14.2 Google Play Store</h3>
+            <h3>15.2 Google Play Store</h3>
             <p>If you download RecipeAI from the Google Play Store:</p>
             <ul>
                 <li>Google collects certain information as described in <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google's Privacy Policy</a>;</li>
